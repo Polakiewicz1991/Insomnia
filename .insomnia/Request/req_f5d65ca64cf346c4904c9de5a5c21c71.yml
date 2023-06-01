@@ -1,9 +1,9 @@
 _id: req_f5d65ca64cf346c4904c9de5a5c21c71
 type: Request
 parentId: fld_45ac29c3f8ed4e9fb840ffbd1b9fd6d1
-modified: 1685619968576
+modified: 1685621182173
 created: 1685619964686
-url: 127.0.0.1:5005/store/ID
+url: 127.0.0.1:5005/store/eaff5c5489e847f3b892d9dece2de618
 name: Get store via ID
 description: ""
 method: GET

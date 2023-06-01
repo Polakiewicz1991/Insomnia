@@ -1,9 +1,9 @@
 _id: req_867ae6edd2e340e494d5c57bd8ab9de2
 type: Request
 parentId: fld_06e214926be742d494fab342c56fc195
-modified: 1685620261459
+modified: 1685621299492
 created: 1685620148472
-url: 127.0.0.1:5005/item/ID
+url: 127.0.0.1:5005/item/351b3f49b3ff4f04b25d916775e77a1c
 name: Get item via ID
 description: ""
 method: GET
