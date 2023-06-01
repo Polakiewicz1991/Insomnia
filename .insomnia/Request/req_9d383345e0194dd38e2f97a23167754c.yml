@@ -1,21 +1,26 @@
-_id: req_04235166f7284a0ab1d49d7aebe6391e
+_id: req_9d383345e0194dd38e2f97a23167754c
 type: Request
-parentId: fld_45ac29c3f8ed4e9fb840ffbd1b9fd6d1
-modified: 1685620044413
-created: 1685619749217
-url: 127.0.0.1:5005/stores
-name: Get all stores
+parentId: fld_06e214926be742d494fab342c56fc195
+modified: 1685620157662
+created: 1685620070499
+url: 127.0.0.1:5005/item
+name: New item with store ID
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"store_id": "xxxxxxxxxxxxxx",
+    	"name"  : ":D",
+    	"price" :   12.99
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1685619749217
+metaSortKey: -1685619879279.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

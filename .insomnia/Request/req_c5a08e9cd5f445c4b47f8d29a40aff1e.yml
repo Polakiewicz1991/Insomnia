@@ -1,21 +1,24 @@
-_id: req_04235166f7284a0ab1d49d7aebe6391e
+_id: req_c5a08e9cd5f445c4b47f8d29a40aff1e
 type: Request
 parentId: fld_45ac29c3f8ed4e9fb840ffbd1b9fd6d1
-modified: 1685620044413
-created: 1685619749217
+modified: 1685619932878
+created: 1685619901712
 url: 127.0.0.1:5005/stores
-name: Get all stores
+name: New store
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"name": "New storex"
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1685619749217
+metaSortKey: -1685619749167
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

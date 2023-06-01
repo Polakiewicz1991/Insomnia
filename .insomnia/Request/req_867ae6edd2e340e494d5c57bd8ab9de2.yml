@@ -1,10 +1,10 @@
-_id: req_04235166f7284a0ab1d49d7aebe6391e
+_id: req_867ae6edd2e340e494d5c57bd8ab9de2
 type: Request
-parentId: fld_45ac29c3f8ed4e9fb840ffbd1b9fd6d1
-modified: 1685620044413
-created: 1685619749217
-url: 127.0.0.1:5005/stores
-name: Get all stores
+parentId: fld_06e214926be742d494fab342c56fc195
+modified: 1685620261459
+created: 1685620148472
+url: 127.0.0.1:5005/item/ID
+name: Get item via ID
 description: ""
 method: GET
 body:
@@ -15,7 +15,7 @@ headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1685619749217
+metaSortKey: -1685619879329.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

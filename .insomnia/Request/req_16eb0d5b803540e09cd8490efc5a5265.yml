@@ -1,12 +1,12 @@
-_id: req_04235166f7284a0ab1d49d7aebe6391e
+_id: req_16eb0d5b803540e09cd8490efc5a5265
 type: Request
-parentId: fld_45ac29c3f8ed4e9fb840ffbd1b9fd6d1
-modified: 1685620044413
-created: 1685619749217
-url: 127.0.0.1:5005/stores
-name: Get all stores
+parentId: fld_06e214926be742d494fab342c56fc195
+modified: 1685620265933
+created: 1685620167404
+url: 127.0.0.1:5005/item/ID
+name: Delete item via ID
 description: ""
-method: GET
+method: DELETE
 body:
   mimeType: application/json
   text: ""
@@ -15,7 +15,7 @@ headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1685619749217
+metaSortKey: -1685619879229.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
