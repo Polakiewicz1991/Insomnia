@@ -1,0 +1,21 @@
+_id: req_04235166f7284a0ab1d49d7aebe6391e
+type: Request
+parentId: fld_45ac29c3f8ed4e9fb840ffbd1b9fd6d1
+modified: 1685619772472
+created: 1685619749217
+url: 127.0.0.1:5005/stores
+name: all stores
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1685619749217
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
