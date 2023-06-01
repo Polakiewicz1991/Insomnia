@@ -1,9 +1,9 @@
 _id: req_04235166f7284a0ab1d49d7aebe6391e
 type: Request
 parentId: fld_45ac29c3f8ed4e9fb840ffbd1b9fd6d1
-modified: 1685620044413
+modified: 1685621681144
 created: 1685619749217
-url: 127.0.0.1:5005/stores
+url: "{{url}}/stores"
 name: Get all stores
 description: ""
 method: GET

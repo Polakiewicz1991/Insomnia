@@ -1,9 +1,9 @@
 _id: req_9d383345e0194dd38e2f97a23167754c
 type: Request
 parentId: fld_06e214926be742d494fab342c56fc195
-modified: 1685621290000
+modified: 1685623496401
 created: 1685620070499
-url: 127.0.0.1:5005/item
+url: "{{url}}/item"
 name: New item with store ID
 description: ""
 method: POST
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"store_id": "1143a6525c354ac0b81e8680f89ce86a",
+    	"store_id": "bec8400a50904f809ee5dd7c9cd44b83",
     	"name"  : ":P",
     	"price" : 13.99
     }
