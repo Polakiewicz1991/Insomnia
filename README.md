@@ -1,2 +1,0 @@
-# Insomnia
-API tests
