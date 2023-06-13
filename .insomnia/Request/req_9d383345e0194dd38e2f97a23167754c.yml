@@ -1,7 +1,7 @@
 _id: req_9d383345e0194dd38e2f97a23167754c
 type: Request
 parentId: fld_06e214926be742d494fab342c56fc195
-modified: 1685623496401
+modified: 1686561282635
 created: 1685620070499
 url: "{{url}}/item"
 name: New item with store ID
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"store_id": "bec8400a50904f809ee5dd7c9cd44b83",
-    	"name"  : ":P",
-    	"price" : 13.99
+    	"store_id": "8",
+    	"name"  : "Kotek",
+    	"price" : 999.99
     }
 parameters: []
 headers:
