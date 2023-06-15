@@ -1,7 +1,7 @@
 _id: req_9d383345e0194dd38e2f97a23167754c
 type: Request
 parentId: fld_06e214926be742d494fab342c56fc195
-modified: 1686820634178
+modified: 1686822244561
 created: 1685620070499
 url: "{{url}}/item"
 name: New item with store ID
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"store_id": "1",
-    	"name"  : "Produkt_16",
-    	"price" : 1.06
+    	"store_id": "2",
+    	"name"  : "Produkt_23",
+    	"price" : 2.03
     }
 parameters: []
 headers:
