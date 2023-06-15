@@ -1,7 +1,7 @@
 _id: req_c5a08e9cd5f445c4b47f8d29a40aff1e
 type: Request
 parentId: fld_45ac29c3f8ed4e9fb840ffbd1b9fd6d1
-modified: 1686059362405
+modified: 1686820530890
 created: 1685619901712
 url: "{{url}}/store"
 name: New store
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Carrefour"
+    	"name": "Sklep_1"
     }
 parameters: []
 headers:

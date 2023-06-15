@@ -1,26 +1,21 @@
-_id: req_9d383345e0194dd38e2f97a23167754c
+_id: req_0e58b9a1fabb462ea35931cf4517e9ac
 type: Request
-parentId: fld_06e214926be742d494fab342c56fc195
-modified: 1686820634178
-created: 1685620070499
-url: "{{url}}/item"
-name: New item with store ID
+parentId: fld_b1d8129adac7461ebf58b54ec11e399e
+modified: 1686820772158
+created: 1686662418377
+url: "{{url}}/tags"
+name: Get all Tags
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"store_id": "1",
-    	"name"  : "Produkt_16",
-    	"price" : 1.06
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1685619879279.5
+metaSortKey: -1686662418377
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
