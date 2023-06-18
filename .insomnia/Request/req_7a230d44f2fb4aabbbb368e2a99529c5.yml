@@ -1,25 +1,25 @@
-_id: req_7d6f6edf76e84b80af7a531f494df0cf
+_id: req_7a230d44f2fb4aabbbb368e2a99529c5
 type: Request
-parentId: fld_06e214926be742d494fab342c56fc195
-modified: 1687111698706
-created: 1685620009442
-url: "{{url}}/items"
-name: Get all items
+parentId: fld_cb808cdc014c4b3e893ac941b26d4292
+modified: 1687094659902
+created: 1687090128444
+url: "{{url}}/login"
+name: login user
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"username": "PP",
+    	"password": "1234"
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-  - id: pair_e0e897208ca7427aaf78505ccb09d069
-    name: ""
-    value: ""
-    description: ""
 authentication: {}
-metaSortKey: -1685620009442
+metaSortKey: -1687033391647.125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

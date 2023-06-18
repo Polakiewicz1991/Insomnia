@@ -1,0 +1,35 @@
+_id: req_97eef35d37264f9d8846951a59139301
+type: Request
+parentId: fld_cb808cdc014c4b3e893ac941b26d4292
+modified: 1687111746370
+created: 1687111719051
+url: "{{url}}/logout"
+name: logout user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "PP",
+    	"password": "1234"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3bee5dd0ff984d43bbf22cf1d80ff9fd
+  - id: pair_9e5f51f679e64cd49e68c8acac944d10
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY4NzExMTY4MSwianRpIjoiOWE1ZmJmNTYtZDY5My00MzUxLTg0NzAtYWMzNzA1ZDMzYjA4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MSwibmJmIjoxNjg3MTExNjgxLCJleHAiOjE2ODcxMTI1ODEsImlzX2FkbWluIjp0cnVlfQ.sfxyfVdwoJ6tslvmCRBDtq3errkyoD30V8GG09ZZaCs
+    description: ""
+authentication: {}
+metaSortKey: -1687033391644
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

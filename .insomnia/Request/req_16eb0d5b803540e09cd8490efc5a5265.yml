@@ -1,9 +1,9 @@
 _id: req_16eb0d5b803540e09cd8490efc5a5265
 type: Request
 parentId: fld_06e214926be742d494fab342c56fc195
-modified: 1686561311911
+modified: 1687094577399
 created: 1685620167404
-url: "{{url}}/item/1"
+url: "{{url}}/item/3"
 name: Delete item via ID
 description: ""
 method: DELETE
@@ -14,6 +14,12 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_ffeb5fea95104334b12c2e6ccdfcac44
+  - id: pair_c4206698a44945bbab0047e9b1f84cfd
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY4NzA5NDU2NCwianRpIjoiOWM3ZDczNzgtMzBlMC00MTEyLWFkYTUtY2YwMDVlN2E1MzMzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MiwibmJmIjoxNjg3MDk0NTY0LCJleHAiOjE2ODcwOTU0NjQsImlzX2FkbWluIjpmYWxzZX0.CR4pNOHKn-f3qhE9HPgiwk01nQ1OLYpnNL3jNePQb9k
+    description: ""
 authentication: {}
 metaSortKey: -1685619879229.5
 isPrivate: false

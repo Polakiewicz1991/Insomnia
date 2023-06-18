@@ -1,7 +1,7 @@
 _id: req_9d383345e0194dd38e2f97a23167754c
 type: Request
 parentId: fld_06e214926be742d494fab342c56fc195
-modified: 1686822244561
+modified: 1687093849255
 created: 1685620070499
 url: "{{url}}/item"
 name: New item with store ID
@@ -11,14 +11,20 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"store_id": "2",
-    	"name"  : "Produkt_23",
-    	"price" : 2.03
+    	"store_id": "1",
+    	"name"  : "Produkt_14",
+    	"price" : 4.04
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_e9eb98df66e142089cb44da9fb9674eb
+  - id: pair_f96a4f1864f64eabb4a8a7e4aa695f3d
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY4NzA5MzI2OSwianRpIjoiOWViNzc0ZjctZGNlMi00ZDU3LWFlZWUtNTA2YjAyNTk3MzJmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MSwibmJmIjoxNjg3MDkzMjY5LCJleHAiOjE2ODcwOTQxNjl9.KHCxUULF8jsbKrNBMghvwHr-wfz17YwY1SC3eRODwHI
+    description: ""
 authentication: {}
 metaSortKey: -1685619879279.5
 isPrivate: false
